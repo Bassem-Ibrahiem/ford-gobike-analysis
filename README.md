@@ -4,6 +4,24 @@ Hi there folks! In a world of ever-changing options for transportation, it's evi
 
 In this Udacity project, we'll be taking a look at some data provided to us by Ford's GoBike project. Ford has kindly made this data available to us [at this provided URL](https://www.fordgobike.com/system-data).
 
+## Summary
+
+Unfortunately, the dataset in and of itself provides little to be learned from. It contains very few quantitative and categorical features to glean insights from. As I note in the slide deck, there are a number of ways in which this dataset could be augmented, and it appears through searches online that this dataset may have been more robust at one point in time.
+
+Here are a few examples in which I would have hoped to see more information:
+
+ - How did repeat users account for the rides in the dataset?
+ - What impact does the electric vs. non-electric bike types have on this dataset?
+ - How might knowing some historical weather patterns add additional insights for us?
+
+Still, not all our efforts were futile. We did get a decent understanding at the disparity between rider age and rider membership. Let's highlight a few of those in the next section.
+
+## Key Insights
+
+ - **Gender has no real effect on ride duration.** One might expect that males would be taking the longest rides, but the data doesn't indicate this at all. Across all ages, the differences between duration of male riders vs. female & other riders is negligible. In fact, it wasn't uncommon that females and those who marked their gender as "Other" would often ride longer than male riders.
+ - **Folks in their early 30's comprise the bulk of the rides.** This one is the one that surprised me the most. Knowing that people as young as 18 can rent one of these bikes, I definitely expected to see the dataset to have a much stronger right skew. While a right skew does exist, isn't extreme given that people in their 30's tend to ride more often than people in their 20's or even in their teens.
+ - **Rides were longer in the summer and shorter in the winter.** This one wasn't as surprising, but it is still notable nevertheless. While there was a steady incline in riders over time in general, there were still notable duration spikes in the summer months and dips in the winter months. (Again, this is where it would have been great to have historical weather to validate this to an extent.)
+
 ## Dataset
 
 As already shared above, Ford kindly provided us with the data we'll need for this project. Because this data is always fluctuating, I downloaded to my laptop and uploaded to GitHub what I worked from as of April 24, 2019. This way, if you want to get the same results that I did, you can simply leverage the same data that I used!
